@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coaches.Server\Coaches.Server.csproj" />
+    <ProjectReference Include="..\NationalTeams.Shared\NationalTeams.Shared.csproj" />
+    <ProjectReference Include="..\Players.Server\Players.Server.csproj" />
+    <ProjectReference Include="..\SoccerGame.Core\Common.csproj" />
+  </ItemGroup>
+
+</Project>
